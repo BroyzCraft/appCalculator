@@ -9,7 +9,7 @@ import {
 const style = StyleSheet.create({
     button: {
         fontSize: 30,
-        width: Dimensions.get("window").width / 4 - 2.5,
+        width: Dimensions.get("window").width / 4,
         height: Dimensions.get("window").width / 4 - 20,
         padding: 20,
         backgroundColor: '#3E3E3E',
@@ -17,6 +17,7 @@ const style = StyleSheet.create({
         borderWidth: 1,
         borderColor: '#888',
         borderRadius: 10,
+        color: '#fff',
     },
     operationButton: {
         color: '#fff',
@@ -27,10 +28,10 @@ const style = StyleSheet.create({
         backgroundColor: '#FA8334'
     },
     doubleButton: {
-        width: (Dimensions.get("window").width / 4 - 2.5) * 2, 
+        width: (Dimensions.get("window").width / 4) * 2, 
     },
     tripleButton: {
-        width: (Dimensions.get("window").width / 4 - 2.5) * 3,
+        width: (Dimensions.get("window").width / 4) * 3,
     }
 })
 

@@ -96,11 +96,10 @@ export default class App extends Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    backgroundColor: '#000'
   },
   buttons: {
     flexDirection: 'row',
-    flexWrap: 'wrap',
-    marginLeft: 5,
-    marginRight: 5
+    flexWrap: 'wrap'
   }
 });
