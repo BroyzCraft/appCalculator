@@ -40,6 +40,7 @@ export default class App extends Component {
   }
 
   setOperation = operation => {
+
     if (this.state.current === 0) {
       this.setState({ operation, current: 1, clearDisplay: true })
     } else {
@@ -57,7 +58,7 @@ export default class App extends Component {
         displayValue: `${values[0]}`,
         operation: equals ? null : operation,
         current: equals ? 0 : 1,
-        //clearDisplay: !equals,
+        // clearDisplay: !equals,
         clearDisplay: true,
         values,
       })
@@ -99,5 +100,7 @@ const styles = StyleSheet.create({
   buttons: {
     flexDirection: 'row',
     flexWrap: 'wrap',
+    marginLeft: 5,
+    marginRight: 5
   }
 });
